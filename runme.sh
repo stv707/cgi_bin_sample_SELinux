@@ -30,7 +30,7 @@ then
   sed -i 's:/var/www/html:/data/www/html:' /etc/httpd/conf/httpd.conf
   sed -i 's/Listen *80/Listen 4242/' /etc/httpd/conf/httpd.conf
   mkdir -p /data/www/html
-  if [ -d speed.html ]
+  if [ -f speed.html ]
   then
   cp speed.html /data/www/html/
   else
