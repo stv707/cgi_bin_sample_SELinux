@@ -1,5 +1,5 @@
 #!/bin/bash
-HO=serverb.example.local
+HO=node3.domain10.example.com
 HOSTNAME=$(hostname)
 if [ $HOSTNAME != $HO ]
 then
